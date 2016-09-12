@@ -1,0 +1,720 @@
+/*******Reset*******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********Fonts***********/
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-UltraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-UltraLightItali.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-SemiBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ThaiSans';
+    src: url('../fonts/ThaiSansNeue-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/******Code start******/
+body {
+    background: #FFF;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    color: #565656;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #565656;
+    width: 100%;
+    position: relative;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+.container {
+    width: 1086px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix::after,
+.container::after,
+ul.navBar::after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.logo img {
+    
+}
+
+.contact-details {
+    border-width: 320px;
+    margin-left: 90px;
+}
+
+.contact-details p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 12px;
+    color: #b1b1b1;
+    line-height: 17px;
+}
+
+.yellow {
+	color: #fbe40f;
+}
+
+.loginBlock {
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.loginBlock a {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 11px 0;
+    margin: 0px 10px;
+}
+
+.loginBlock a.loginBtn {
+	color: #FFF;
+}
+
+.loginBlock a.loginBtn:hover {
+	color: #fbe40f;
+}
+
+.loginBlock a.helpBtn {
+	color: #313131;
+    background-color: #fbe40f;
+    border-radius: 50px;
+    width: 160px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+/***Navigation Bar****/
+
+nav{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #6f6f6f;
+}
+
+ul.navBar {
+    margin: 0;
+    padding: 0;
+}
+
+ul.navBar li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.navBar li>ul {
+    position: absolute;
+    z-index: 1;
+}
+
+ul.navBar li a {
+    font-family: 'ThaiSans', Arial, sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 23px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    display: block;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+
+ul.navBar li:hover a{
+    color: #313131;
+    font-weight: 300;
+}
+    
+
+ul.navBar>li:hover {
+    background-color: #fbe40f;
+    -webkit-box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:    0px 2px 25px 0px rgba(0, 0, 0, 0.8);
+    box-shadow:         0px 2px 25px 0px rgba(0, 0, 0, 0.8);
+}
+
+ul.navBar li>ul.subMenu{
+    display: none !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+
+ul.navBar li:hover>ul.subMenu{
+    display: block !important;
+    background-color: #fbe40f;
+    padding: 15px 0px;
+    -webkit-box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 20px 25px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px 20px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+ul.navBar li:hover>ul.subMenu li a{
+    text-shadow: none !important;
+    color: #313131;
+    padding: 5px 0px;
+}
+
+ul.navBar li:hover>ul.subMenu li:hover a{
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35) !important;
+}
+
+/**Slider**/
+
+.slider .slick-dotted.slick-slider {
+    margin-top: 17px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 10px 30px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.slider .slick-dots{
+    bottom: -35px;
+}
+
+
+.galletSlider .slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.gallerySection .slick-dotted.slick-slider {
+    margin-top: 45px;
+}
+
+.slick-prev::before {
+    content: "\f104";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    text-rendering: auto;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next::before {
+    content: "\f105";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    color: #333;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contentArea{
+    margin-top: 85px;
+}
+
+/*****Slide menu*******/
+.leftCol,
+.sideMenu {
+    width: 200px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+ul.sideMenu li {
+    height: 70px;
+    width: 200px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: "ThaiSans", Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 9px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+ul.sideMenu li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+ul.sideMenu li h2,
+ul.sideMenu li span {
+    text-align: right;
+    color: #FFF;
+    display: block;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+ul.sideMenu li h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+ul.sideMenu li span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+ul.sideMenu li.yellowMenu h2,
+ul.sideMenu li.yellowMenu span {
+    color: #313131;
+}
+
+ul.sideMenu li.yellowMenu {
+    background-image: url(../images/g-tab.png);
+    background-color: #fbe40f;
+}
+
+ul.sideMenu li.yellowMenu:hover {
+    background-color: #fff061;
+}
+
+ul.sideMenu li.greyMenu {
+    background-image: url(../images/y-tab.png);
+    background-color: #494a45;
+}
+
+ul.sideMenu li.greyMenu:hover {
+    background-color: #636460;
+}
+
+.businessArea h2 {
+    display: block;
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-size: 26px;
+    color: #313131;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 13px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fbe40f;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.businessArea ul.businessList {
+	position: relative;
+}
+
+.businessArea ul.businessList::before {
+    content: "$";
+    position: absolute;
+    font-family: "ThaiSans", Arial, sans-serif;
+    top: 0;
+    left: 0;
+    line-height: 87px;
+    font-size: 170px;
+    font-weight: bold;
+    color: #fefccd;
+}
+
+.businessArea ul.businessList li {
+    text-align: right;
+    font-family: "Tahoma", sans-serif;
+    color: #494a45;
+    padding-bottom: 10px;
+}
+
+.businessArea ul.businessList li a {
+    color: #494a45;
+}
+
+.businessArea ul.businessList li a:hover {
+    color: #e5d221;
+}
+
+/**RightCol**/
+
+.rightCol {
+	width: 846px;
+    position: relative;
+}
+
+.content h1 {
+    position: relative;
+    text-align: center;
+    color: #494a45;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "ThaiSans", Arial, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.content h1::after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: calc(50% - 62.5px);
+    background-color: #e5d221;
+    height: 1px;
+    width: 125px;
+}
+
+.content h1 span {
+    font-size: 22px;
+}
+
+/*****Products*****/
+
+.productBox {
+    width: 404px;
+    height: 215px;
+    box-sizing: border-box;
+    position: relative;
+/*    cursor: pointer;*/
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow:    0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    box-shadow:         0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    position: relative;
+    padding: 25px 20px;
+    margin-top: 50px;
+    top: 0;
+}
+
+.productBox:nth-child(2n),
+.yellowBox:nth-child(2n) {
+    float: right;
+}
+
+.productBox:nth-child(2n+1),
+.yellowBox:nth-child(2n+1) {
+	float: left;
+}
+
+.productBox:hover {
+    -webkit-box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow:    0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    box-shadow:         0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    top: -8px;
+}
+
+.productBox .productDetail {
+    width: 185px;	
+}
+
+.productBox .productDetail h2 {
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.productBox .productDetail p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    font-family: "Tahoma", sans-serif;
+}
+
+.productBox .productDetail p.price {
+    font-weight: bold;
+    color: #494a45;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.productBox .productDetail p.price span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e80000;
+}
+
+.productBox .productDetail a.moreDetails {
+	font-weight: normal;
+    font-family: "ThaiSans", Arial, sans-serifs;
+    color: #494a45;
+    font-size: 18px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcf34b+0,fbe510+100 */
+    background: rgb(252,243,75); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(252,243,75,1) 0%, rgba(251,229,16,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(252,243,75,1) 0%,rgba(251,229,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(252,243,75,1) 0%,rgba(251,229,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf34b', endColorstr='#fbe510',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-radius: 20px;
+    padding: 5px 15px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.18);
+    box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.18);
+    position: relative;
+    top: 0;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+}
+
+.productBox:hover .productDetail a.moreDetails {
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow:    0px 6px 8px 0px rgba(0, 0, 0, 0.28);
+    box-shadow:         0px 6px 8px 0px rgba(0, 0, 0, 0.28);
+    top: -3px;
+}
+
+.productBox .productImg {
+	position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.moreProduct {
+    position: relative;
+    text-align: center;
+    color: #494a45;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "ThaiSans", Arial, sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    display: block;
+}
+
+.moreProduct::after {
+	content: "";
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 24px);
+    background-color: #e5d221;
+    height: 1px;
+    width: 48px;
+}
+
+.moreProduct:hover {
+    color: #909090;
+}
+
+/******Yellow Box*******/
+.yellowBox {
+    position: relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcf34b+0,fbe510+100 */
+    background: rgb(252,243,75); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(252,243,75,1) 0%, rgba(251,229,16,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(252,243,75,1) 0%,rgba(251,229,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(252,243,75,1) 0%,rgba(251,229,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf34b', endColorstr='#fbe510',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    width: 404px;
+    height: 145px;
+    box-sizing: border-box;
+/*    cursor: pointer;*/
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow:    0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    box-shadow:         0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    position: relative;
+    padding: 25px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    top: 0;
+}
+
+.yellowBox:hover {
+    -webkit-box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow:    0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    box-shadow:         0px 10px 13px 0px rgba(0, 0, 0, 0.28);
+    top: -8px;
+}
+
+.yellowBox .yellowDetail {
+	width: 200px;
+}
+
+.yellowBox a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.yellowBox h2 {
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+    border-bottom: 1px solid #FFF;
+}
+
+.yellowBox p {
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.yellowBox span {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: "ThaiSans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.girls {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
