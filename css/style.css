@@ -718,3 +718,76 @@ ul.sideMenu li.greyMenu:hover {
     bottom: 0;
     right: 20px;
 }
+
+/****Footer*****/
+
+footer {
+    background-color: #494a45;
+    padding: 45px 0px 50px;
+}
+
+footer .container {
+    color: #dcdcdc;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer .container .column {
+    width: 147px;
+    float: left;
+}
+
+footer .container .column li {
+    padding-bottom: 10px;
+}
+
+footer .container .column a {
+    color: #dcdcdc;
+}
+
+footer .container .column a:hover {
+    color: #fbe40f;
+}
+
+footer .container .column:first-child {
+    width: 200px;
+    margin-right: 41px;
+}
+
+footer .container .column span.copyright {
+    padding-top: 56px;
+    display: block;
+}
+
+footer .container .column:last-child {
+    width: 255px;
+    text-align: right;
+    float: right;
+}
+
+footer .container .column .title{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+footer .container .column .row {
+    margin-bottom: 20px;
+}
+
+footer .container .column h2 {
+    font-family: "ThaiSans", Arial, sans-serif;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+footer .container .column h3 {
+    font-family: "ThaiSans", Arial, sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
