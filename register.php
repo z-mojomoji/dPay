@@ -6,65 +6,46 @@
         <form action="" class="register">
             <h1>Registration</h1>
             <fieldset class="row1">
-                <legend>Account Details
-                </legend>
+                <legend>Account Details</legend>
                 <p>
-                    <label>Email *
-                    </label>
-                    <input type="text"/>
-                    <label>Repeat email *
-                    </label>
-                    <input type="text"/>
+                    <label>Email *</label>
+                    <input type="email"/>
+                    <label>Repeat email *</label>
+                    <input type="email"/>
                 </p>
                 <p>
-                    <label>Password*
-                    </label>
-                    <input type="text"/>
-                    <label>Repeat Password*
-                    </label>
-                    <input type="text"/>
-                    <label class="obinfo">* obligatory fields
-                    </label>
+                    <label>Password*</label>
+                    <input type="password"/>
+                    <label>Repeat Password*</label>
+                    <input type="password"/>
+                    <label class="obinfo">* obligatory fields</label>
                 </p>
             </fieldset>
             <fieldset class="row2">
-                <legend>Personal Details
-                </legend>
+                <legend>Personal Details</legend>
                 <p>
-                    <label>Name *
-                    </label>
+                    <label>Name *</label>
                     <input type="text" class="long"/>
                 </p>
                 <p>
-                    <label>Phone *
-                    </label>
+                    <label>Phone *</label>
                     <input type="text" maxlength="10"/>
                 </p>
                 <p>
-                    <label class="optional">Street
-                    </label>
+                    <label class="optional">Street</label>
                     <input type="text" class="long"/>
                 </p>
                 <p>
-                    <label>City *
-                    </label>
+                    <label>City *</label>
                     <input type="text" class="long"/>
                 </p>
                 <p>
-                    <label>Country *
-                    </label>
-                    <select>
-                        <option>
-                        </option>
-                        <option value="1">United States
-                        </option>
-                    </select>
+                    <label>Country *</label>
+                    <?php include('country_list.php'); ?>
                 </p>
                 <p>
-                    <label class="optional">Website
-                    </label>
+                    <label class="optional">Website</label>
                     <input class="long" type="text" value="http://"/>
-
                 </p>
             </fieldset>
             <fieldset class="row3">
