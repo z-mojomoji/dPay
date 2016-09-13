@@ -3,8 +3,10 @@
 ?>
     <div class="rightCol right content">
         <!--starts here-->
-        <form action="" class="register">
+
             <h1>Registration</h1>
+        <form action="" class="register">
+<!--
             <fieldset class="row1">
                 <legend>Account Details</legend>
                 <p>
@@ -21,6 +23,7 @@
                     <label class="obinfo">* obligatory fields</label>
                 </p>
             </fieldset>
+-->
             <fieldset class="row2">
                 <legend>Personal Details</legend>
                 <p>
@@ -30,6 +33,10 @@
                 <p>
                     <label>Phone *</label>
                     <input type="text" maxlength="10"/>
+                </p>
+                <p>
+                    <label>Email *</label>
+                    <input type="email"/>
                 </p>
                 <p>
                     <label class="optional">Street</label>
@@ -43,10 +50,12 @@
                     <label>Country *</label>
                     <?php include('country_list.php'); ?>
                 </p>
+<!--
                 <p>
                     <label class="optional">Website</label>
                     <input class="long" type="text" value="http://"/>
                 </p>
+-->
             </fieldset>
             <fieldset class="row3">
                 <legend>Further Information
@@ -163,32 +172,16 @@
                         </option>
                     </select>
                 </p>
-                <p>
-                    <label>Children *
-                    </label>
-                    <input type="checkbox" value="" />
-                </p>
-                <div class="infobox"><h4>Helpful Information</h4>
-                    <p>Here comes some explaining text, sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
             </fieldset>
             <fieldset class="row4">
-                <legend>Terms and Mailing
+                <legend>Terms and Conditions
                 </legend>
                 <p class="agreement">
                     <input type="checkbox" value=""/>
                     <label>*  I accept the <a href="#">Terms and Conditions</a></label>
                 </p>
-                <p class="agreement">
-                    <input type="checkbox" value=""/>
-                    <label>I want to receive personalized offers by your site</label>
-                </p>
-                <p class="agreement">
-                    <input type="checkbox" value=""/>
-                    <label>Allow partners to send me personalized offers and related services</label>
-                </p>
             </fieldset>
-            <div><button class="button">Register &raquo;</button></div>
+            <div class="right"><button class="button">Register &raquo;</button></div>
         </form>
         <!--ends here-->
     </div>

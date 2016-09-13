@@ -56,6 +56,32 @@ table {
     border-spacing: 0;
 }
 
+ol {
+   list-style: none;
+ }
+
+ol li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+
+ol li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: #fbe40f;
+   border-radius: 100%;
+   color: #777;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+   text-align: center;
+   display: inline-block;
+ }
+
+.img-responsive {
+    width: 100%;
+}
 
 /**********Fonts***********/
 
@@ -309,16 +335,26 @@ ul.navBar li>ul.subMenu {
 ul.navBar li:hover>ul.subMenu {
     display: block !important;
     background-color: #fbe40f;
-    padding: 15px 0px;
+    min-width: 200px;
+    text-align: left;
+    padding: 15px 20px;
     -webkit-box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.3);
 }
 
+ul.navBar li:hover>ul.subMenu li {
+    display: block;
+}
+
 ul.navBar li:hover>ul.subMenu li a {
     text-shadow: none !important;
     color: #313131;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
     padding: 5px 0px;
+    text-align: left !important;
 }
 
 ul.navBar li:hover>ul.subMenu li:hover a {
@@ -475,8 +511,9 @@ ul.sideMenu li.greyMenu:hover {
     font-family: "ThaiSans", Arial, sans-serif;
     top: 0;
     left: 0;
-    line-height: 87px;
+    line-height: 48px;
     font-size: 170px;
+    z-index: 0;
     font-weight: bold;
     color: #fefccd;
 }
@@ -485,6 +522,8 @@ ul.sideMenu li.greyMenu:hover {
     text-align: right;
     font-family: "Tahoma", sans-serif;
     color: #494a45;
+    position: relative;
+    z-index: 5;
     padding-bottom: 10px;
 }
 
@@ -835,6 +874,7 @@ form.register h4 {
 }
 
 form.register {
+    margin-top: 50px;
     width: 800px;
     height: 530px;
     background-color: #fff;
@@ -855,8 +895,8 @@ form.register fieldset.row1 {
     width: 770px;
     padding: 5px;
     float: left;
-    border-top: 1px solid #F5F5F5;
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 form.register fieldset.row1 label {
@@ -868,15 +908,13 @@ form.register fieldset.row1 label {
 }
 
 form.register fieldset.row2 {
-    border-top: 1px solid #F1F1F1;
-    border-right: 1px solid #F1F1F1;
-    height: 220px;
+/*    height: 220px;*/
+    margin-bottom: 15px;
     padding: 5px;
     float: left;
 }
 
 form.register fieldset.row3 {
-    border-top: 1px solid #F1F1F1;
     padding: 5px;
     float: left;
     margin-bottom: 15px;
@@ -884,8 +922,6 @@ form.register fieldset.row3 {
 }
 
 form.register fieldset.row4 {
-    border-top: 1px solid #F1F1F1;
-    border-right: 1px solid #F1F1F1;
     padding: 5px;
     float: left;
     clear: both;
@@ -904,7 +940,7 @@ form.register .infobox {
 }
 
 form.register legend {
-    color: #abda0f;
+    color: #e5d221;
     padding: 2px;
     margin-left: 14px;
     font-weight: bold;
@@ -979,6 +1015,7 @@ form.register input[type=password] {
 .button {
     border: none;
     width: 200px;
+    margin-top: 15px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }
@@ -1026,4 +1063,103 @@ p.agreement label {
     width: 390px;
     text-align: left;
     margin-top: 3px;
+}
+/****How to order****/
+
+.howtoBox {
+    width: 272px;
+    margin-left: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.howtoBox:first-child {
+    margin-left: 0;
+}
+
+.howtoBox .steps {
+    font-family: "ThaiSans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #a5a6a4;
+    text-align: left;
+    line-height: 0.8em;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.howtoBox h4 {
+    font-size: 14px;
+    color: #e5d221;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+    line-height: 1.2em;
+}
+
+.howtoBox .stepDetail .conInfo{
+    padding-top: 10px;
+}
+
+.howtoBox .conInfo span {
+    display: block;
+    font-size: 13px;
+    color: #333;
+    padding-top: 5px;
+}
+
+.howtoBox .conInfo span a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+}
+
+.howtoBox span.y {
+    color: #e5d221;
+}
+
+.howtoBox .stepDetail .icon {
+    text-align: left;
+    background-image: url(../images/icon-bub.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    min-height: 35px;
+    font-size: 13px;
+    margin: 10px auto 0px;
+    width: 150px;
+}
+
+.ic-1 {
+    background-position: 0 -122px;
+}
+
+.ic-2 {
+    background-position: 0 -183px;
+}
+
+.ic-3 {
+    background-position: 0 -244px;
+}
+
+.ic-4 {
+    background-position: 0 -305px;
+}
+
+.ic-5 {
+    background-position: 0 -369px;
+}
+
+/***********Partnership***************/
+
+.partnetCon .p-img {
+    margin-top: 30px;
+}
+
+.partnetCon h4 {
+    margin: 30px auto 15px;
+    font-weight: bold;
+    font-size: 16px;
 }

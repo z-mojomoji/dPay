@@ -18,7 +18,7 @@
     <header>
         <div class="container">
             <div class="logo left">
-                <img src="images/logo-w.png" alt="Deepay" />
+                <a href="index.php" title="Deepay เติมเงิน"><img src="images/logo-w.png" alt="Deepay" /></a>
             </div>
             <!--logo end-->
             <div class="contact-details left">
@@ -45,25 +45,36 @@
             <ul class="navBar">
                 <li>
                     <a href="#">ดีเพย์ท๊อปอัพ</a>
-                </li>
-                <li>
-                    <a href="">Menu2</a>
                     <ul class="subMenu">
-                        <li><a href="">subme1</a></li>
-                        <li><a href="">subme2</a></li>
+                        <li><a href="">คุณสมบัติตู้</a></li>
+                        <li><a href="">สินค้าและบริการ</a></li>
+                        <li><a href="">วิธีการใช้งาน</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="">Menu2</a>
+                    <a href="">ช่องทางธุรกิจ</a>
                     <ul class="subMenu">
-                        <li><a href="">subme1</a></li>
-                        <li><a href="">subme2</a></li>
+                        <li><a href="">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
+                        <li><a href="">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
+                        <li><a href="">เป็นตัวแทนขาย</a></li>
+                        <li><a href="">เป็นตัวแทนจำหน่าย</a></li>
+                        <li><a href="">เป็นตัวแทนติดตั้ง/บริการ</a></li>
+                        <li><a href="">รายได้ที่คุณจะได้รับ</a></li>
+                        <li><a href="register.php">กรอกใบสมัครออนไลน์</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="#">ดีเพย์ท๊อปอัพ</a>
+                    <a href="#">ศูนย์บริการ</a>
+                </li>
+                <li>
+                    <a href="">ติดต่อเรา</a>
+                    <ul class="subMenu">
+                        <li><a href="">เกี่ยวกับเรา</a></li>
+                        <li><a href="">ร่วมงานกับเรา</a></li>
+                    </ul>
+                    <!--submenu-->
                 </li>
             </ul>
         </div>
@@ -97,7 +108,7 @@
                         <span>เข้าระบบตัวแทน</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="register.php"></a>
                         <h2>Register</h2>
                         <span>ลงทะเบียนสำหรับผู้สนใจตู้</span>
                     </li>
@@ -112,7 +123,7 @@
                         <span>ดาวน์โหลดโบรชัวร์</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="howtoorder.php"></a>
                         <h2>Order Now</h2>
                         <span>สั่งซื้อตู้ดีเพย์</span>
                     </li>
