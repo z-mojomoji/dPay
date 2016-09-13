@@ -475,8 +475,9 @@ ul.sideMenu li.greyMenu:hover {
     font-family: "ThaiSans", Arial, sans-serif;
     top: 0;
     left: 0;
-    line-height: 87px;
+    line-height: 48px;
     font-size: 170px;
+    z-index: 0;
     font-weight: bold;
     color: #fefccd;
 }
@@ -485,6 +486,8 @@ ul.sideMenu li.greyMenu:hover {
     text-align: right;
     font-family: "Tahoma", sans-serif;
     color: #494a45;
+    position: relative;
+    z-index: 5;
     padding-bottom: 10px;
 }
 
@@ -855,8 +858,8 @@ form.register fieldset.row1 {
     width: 770px;
     padding: 5px;
     float: left;
-    border-top: 1px solid #F5F5F5;
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 form.register fieldset.row1 label {
@@ -868,15 +871,13 @@ form.register fieldset.row1 label {
 }
 
 form.register fieldset.row2 {
-    border-top: 1px solid #F1F1F1;
-    border-right: 1px solid #F1F1F1;
-    height: 220px;
+/*    height: 220px;*/
+    margin-bottom: 15px;
     padding: 5px;
     float: left;
 }
 
 form.register fieldset.row3 {
-    border-top: 1px solid #F1F1F1;
     padding: 5px;
     float: left;
     margin-bottom: 15px;
@@ -884,8 +885,6 @@ form.register fieldset.row3 {
 }
 
 form.register fieldset.row4 {
-    border-top: 1px solid #F1F1F1;
-    border-right: 1px solid #F1F1F1;
     padding: 5px;
     float: left;
     clear: both;
@@ -904,7 +903,7 @@ form.register .infobox {
 }
 
 form.register legend {
-    color: #abda0f;
+    color: #e5d221;
     padding: 2px;
     margin-left: 14px;
     font-weight: bold;
@@ -979,6 +978,7 @@ form.register input[type=password] {
 .button {
     border: none;
     width: 200px;
+    margin-top: 15px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }

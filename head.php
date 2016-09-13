@@ -97,7 +97,7 @@
                         <span>เข้าระบบตัวแทน</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="register.php"></a>
                         <h2>Register</h2>
                         <span>ลงทะเบียนสำหรับผู้สนใจตู้</span>
                     </li>
