@@ -3,8 +3,10 @@
 ?>
     <div class="rightCol right content">
         <!--starts here-->
-        <form action="" class="register">
+
             <h1>Registration</h1>
+        <form action="" class="register">
+<!--
             <fieldset class="row1">
                 <legend>Account Details</legend>
                 <p>
@@ -21,6 +23,7 @@
                     <label class="obinfo">* obligatory fields</label>
                 </p>
             </fieldset>
+-->
             <fieldset class="row2">
                 <legend>Personal Details</legend>
                 <p>
@@ -30,6 +33,10 @@
                 <p>
                     <label>Phone *</label>
                     <input type="text" maxlength="10"/>
+                </p>
+                <p>
+                    <label>Email *</label>
+                    <input type="email"/>
                 </p>
                 <p>
                     <label class="optional">Street</label>
