@@ -112,7 +112,7 @@
                         <span>ดาวน์โหลดโบรชัวร์</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="howtoorder.php"></a>
                         <h2>Order Now</h2>
                         <span>สั่งซื้อตู้ดีเพย์</span>
                     </li>

@@ -1027,3 +1027,90 @@ p.agreement label {
     text-align: left;
     margin-top: 3px;
 }
+/****How to order****/
+
+.howtoBox {
+    width: 272px;
+    margin-left: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.howtoBox:first-child {
+    margin-left: 0;
+}
+
+.howtoBox .steps {
+    font-family: "ThaiSans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #a5a6a4;
+    text-align: left;
+    line-height: 0.8em;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.howtoBox h4 {
+    font-size: 14px;
+    color: #e5d221;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+    line-height: 1.2em;
+}
+
+.howtoBox .stepDetail .conInfo{
+    padding-top: 10px;
+}
+
+.howtoBox .conInfo span {
+    display: block;
+    font-size: 13px;
+    color: #333;
+    padding-top: 5px;
+}
+
+.howtoBox .conInfo span a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+}
+
+.howtoBox span.y {
+    color: #e5d221;
+}
+
+.howtoBox .stepDetail .icon {
+    text-align: left;
+    background-image: url(../images/icon-bub.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    min-height: 35px;
+    font-size: 13px;
+    margin: 10px auto 0px;
+    width: 150px;
+}
+
+.ic-1 {
+    background-position: 0 -122px;
+}
+
+.ic-2 {
+    background-position: 0 -183px;
+}
+
+.ic-3 {
+    background-position: 0 -244px;
+}
+
+.ic-4 {
+    background-position: 0 -305px;
+}
+
+.ic-5 {
+    background-position: 0 -369px;
+}

@@ -49,7 +49,7 @@
             <!--yellowBox-->
 
             <div class="yellowBox">
-                <a href="#"></a>
+                <a href="howtoorder.php"></a>
                 <div class="yellowDetail">
                     <h2>How to order</h2>
                     <p>ขั้นตอนการสั่งซื้อตู้ดีเพย์</p>
