@@ -55,11 +55,11 @@
                 <li>
                     <a href="">ช่องทางธุรกิจ</a>
                     <ul class="subMenu">
-                        <li><a href="">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
-                        <li><a href="">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
-                        <li><a href="">เป็นตัวแทนขาย</a></li>
-                        <li><a href="">เป็นตัวแทนจำหน่าย</a></li>
-                        <li><a href="">เป็นตัวแทนติดตั้ง/บริการ</a></li>
+                        <li><a href="partnership_owner.php">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
+                        <li><a href="partnership_franchise.php">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
+                        <li><a href="partnership_saledealer.php">เป็นตัวแทนขาย</a></li>
+                        <li><a href="partnership_dealer.php">เป็นตัวแทนจำหน่าย</a></li>
+                        <li><a href="partnership_service.php">เป็นตัวแทนติดตั้ง/บริการ</a></li>
                         <li><a href="">รายได้ที่คุณจะได้รับ</a></li>
                         <li><a href="register.php">กรอกใบสมัครออนไลน์</a></li>
                     </ul>
@@ -134,22 +134,22 @@
                     <h2>ช่องทางธุรกิจ</h2>
                     <ul class="businessList">
                         <li>
-                            <a href="#">
+                            <a href="partnership_dealer.php" title="สนใจเป็นเจ้าของตู้" target="_blank">
                                 สนใจเป็นเจ้าของตู้
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="partnership_franchise.php" title="สนใจเป็นแฟรนไชส์" target="_blank">
                                 สนใจเป็นแฟรนไชส์
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="partnership_saledealer.php" title="สนใจเป็นตัวแทนขาย" target="_blank">
                                 สนใจเป็นตัวแทนขาย
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="partnership_dealer.php" title="สนใจเป็นตัวแทนจำหน่าย" target="_blank">
                                 สนใจเป็นตัวแทนจำหน่าย
                             </a>
                         </li>
