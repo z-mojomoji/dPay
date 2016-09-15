@@ -68,9 +68,9 @@ ol li {
 ol li:before {
    margin-right: 10px;
    content: counter(item);
-   background: #fbe40f;
+   background: #EAC753;
    border-radius: 100%;
-   color: #777;
+   color: #FFF;
     height: 20px;
     width: 20px;
     box-sizing: border-box;
@@ -239,7 +239,7 @@ ul.navBar::after {
 }
 
 .yellow {
-    color: #fbe40f;
+    color: #EAC753;
 }
 
 .loginBlock {
@@ -261,7 +261,8 @@ ul.navBar::after {
 }
 
 .loginBlock a.loginBtn:hover {
-    color: #fbe40f;
+/*    color: #fbe40f;*/
+    color: #fff061;
 }
 
 .loginBlock a.helpBtn {
@@ -274,6 +275,9 @@ ul.navBar::after {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
 }
 
+.loginBlock a.helpBtn:hover {
+    background-color: #fff061;
+}
 
 /***Navigation Bar****/
 
@@ -568,6 +572,32 @@ ul.sideMenu li.greyMenu:hover {
     font-size: 22px;
 }
 
+.inner ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.inner ul li {
+    padding-left: 15px;
+    text-indent: -.7em;
+    margin-bottom: 5px;
+    line-height: 1.3em;
+}
+
+.inner ul li:before {
+    content: "• ";
+    color: #EAC753; /* or whatever color you prefer */
+}
+
+.content .small {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.content p {
+    line-height: 1.3em;
+}
 
 /*****Products*****/
 
@@ -770,6 +800,7 @@ ul.sideMenu li.greyMenu:hover {
     font-family: "ThaiSans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
+    line-height: 0.5em;
 }
 
 .yellowBox span {
@@ -794,6 +825,7 @@ ul.sideMenu li.greyMenu:hover {
 footer {
     background-color: #494a45;
     padding: 45px 0px 50px;
+    margin-top: 70px;
 }
 
 footer .container {
@@ -1093,7 +1125,7 @@ p.agreement label {
 
 .howtoBox h4 {
     font-size: 14px;
-    color: #e5d221;
+    color: #EAC753;
     font-weight: bold;
     text-align: center;
     padding: 5px 0px;
@@ -1118,7 +1150,7 @@ p.agreement label {
 }
 
 .howtoBox span.y {
-    color: #e5d221;
+    color: #EAC753;
 }
 
 .howtoBox .stepDetail .icon {
@@ -1154,12 +1186,112 @@ p.agreement label {
 
 /***********Partnership***************/
 
-.partnetCon .p-img {
+.partnetCon {
+    position: relative;
+}
+
+.partnerCon .p-img {
     margin-top: 30px;
 }
 
-.partnetCon h4 {
+.partnerCon h4 {
     margin: 30px auto 15px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.partnerCon h4 span {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.partnerCon h4 span.s {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.partnerCon .table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+@media screen and (max-width: 580px) {
+  .partnerCon .table {
+    display: block;
+  }
+}
+
+.partnerCon .row {
+  display: table-row;
+  background: #f6f6f6;
+}
+.partnerCon .row:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.partnerCon .row.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #EAC753;
+}
+
+.partnerCon .cell.header {
+    font-weight: 900;
+    color: #ffffff;
+    position: relative;
+    width: 130px;
+    background: #EAC753;
+}
+
+.partnerCon .cell.header span {
+    position: absolute;
+    top: -5px;
+}
+
+@media screen and (max-width: 580px) {
+  .partnerCon .row {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+.partnerCon .table .row:first-child .cell{
+    padding: 6px 12px;
+    height: auto;
+}
+
+.partnerCon .cell {
+  padding: 12px;
+  display: table-cell;
+    font-weight: bold;
+    font-size: 14px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 580px) {
+  .partnerCon .cell {
+    padding: 2px 12px;
+    display: block;
+  }
+}
+
+.partnerCon .priceBox {
+    position: absolute;
+    top: 310px;
+    text-align: center;
+    padding: 15px 40px;
+    right: 0;
+    color: red;
+    border: 1px solid #dcdcdc;
+    background-color: #f6f6f6;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4em;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
 }

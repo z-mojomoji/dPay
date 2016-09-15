@@ -1,7 +1,7 @@
 <?php
     include('head.php');
 ?>
-    <div class="rightCol right content clearfix">
+    <div class="rightCol right content clearfix inner">
         <!--starts here-->
         <h1>How to order <span>วิธีสั่งซื้อตู้</span></h1>
         <div class="howtoWrap">

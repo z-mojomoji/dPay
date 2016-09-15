@@ -30,16 +30,25 @@
         </div>
 
         <div class="column">
-            <div class="title">ตู้ดีเพย์</div>
+            <div class="title">ช่องทางธุรกิจ</div>
             <ul>
-                <li><a href="#" target="_blank">
-                        คุณสมบัติตู้
+                <li><a href="partnership_owner.php" target="_blank">
+                        เจ้าของตู้แบบซื้อขาด
+                    </a></li>
+                <li><a href="partnership_franchise.php" target="_blank">
+                        เจ้าของตู้แบบแฟรนไซส์
+                    </a></li>
+                <li><a href="partnership_saledealer.php" target="_blank">
+                        ตัวแทนขาย
+                    </a></li>
+                <li><a href="partnership_dealer.php" target="_blank">
+                        ตัวแทนจำหน่าย
+                    </a></li>
+                <li><a href="partnership_service.php" target="_blank">
+                        ตัวแทนติดตั้ง/บริการ
                     </a></li>
                 <li><a href="#" target="_blank">
-                        ดีเพย์ท็อปอัพ
-                    </a></li>
-                <li><a href="#" target="_blank">
-                        สินค้าและบริการ
+                        รายได้ที่คุณจะได้รับ
                     </a></li>
             </ul>
         </div>

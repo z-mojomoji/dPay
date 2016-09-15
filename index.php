@@ -11,7 +11,7 @@
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
                     <p class="price">ราคา <span>32,000 บาท</span></p>
-                    <a class="moreDetails" href="">ดูคุณสมบัติตู้</a>
+                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
@@ -25,7 +25,7 @@
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
                     <p class="price">ราคา <span>32,000 บาท</span></p>
-                    <a class="moreDetails" href="">ดูคุณสมบัติตู้</a>
+                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
@@ -38,7 +38,7 @@
         <!--productList-->
         <div class="yellowList clearfix">
             <div class="yellowBox">
-                <a href="#"></a>
+                <a href="#" title="Service สินค้าและบริการ"></a>
                 <div class="yellowDetail">
                     <h2>Service</h2>
                     <p>สินค้าและบริการ</p>
@@ -49,7 +49,7 @@
             <!--yellowBox-->
 
             <div class="yellowBox">
-                <a href="howtoorder.php"></a>
+                <a href="howtoorder.php" title="How to order ขั้นตอนการสั่งซื้อตู้ดีเพย์"></a>
                 <div class="yellowDetail">
                     <h2>How to order</h2>
                     <p>ขั้นตอนการสั่งซื้อตู้ดีเพย์</p>
