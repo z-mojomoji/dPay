@@ -994,7 +994,7 @@ form.register label.optional {
     text-align: right;
     margin-right: 6px;
     margin-top: 2px;
-    color: #A3A3A3;
+/*    color: #A3A3A3;*/
 }
 
 form.register label.obinfo {
@@ -1011,7 +1011,7 @@ form.register input {
 }
 
 form.register input.long {
-    width: 247px;
+    width: 215px;
     color: #505050;
 }
 
@@ -1034,7 +1034,8 @@ form.register label.gender {
     line-height: 19px;
 }
 
-form.register input[type=text] {
+form.register input[type=text],
+form.register input[type=email]{
     border: 1px solid #E1E1E1;
     height: 18px;
 }
@@ -1054,8 +1055,8 @@ form.register input[type=password] {
 
 form.register input[type=text].year {
     border: 1px solid #E1E1E1;
-    height: 18px;
-    width: 30px;
+    height: 15px;
+    width: 40px;
 }
 
 form.register input[type=checkbox] {
@@ -1070,6 +1071,10 @@ form.register select {
     margin-bottom: 3px;
     color: #505050;
     margin-right: 5px;
+}
+
+form.register select.country {
+    width: 217px;
 }
 
 form.register select.date {

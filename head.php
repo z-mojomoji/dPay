@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
 
 </head>
 
@@ -25,9 +26,9 @@
                 <p>
                     <strong>ตู้เติมเงินมือถือ กำไรสูง คืนทุนเร็ว จัดการง่าย ผลตอบแทนสุดคุ้ม</strong>
                     <br>
-                    <strong>ติดต่อฝ่ายขาย :</strong> <span class="yellow">02-1054149 กด 1</span> (ทุกวัน เวลา 8.00 - 20.00 น.)
+                    <strong>ติดต่อฝ่ายขาย :</strong> <span class="yellow">093-949-0098</span> (ทุกวัน เวลา 8.00 - 20.00 น.)
                     <br>
-                    <strong>แจ้งปัญหาโทร :</strong> <span class="yellow">02-1054149</span> หรือ ผ่านหน้าเว็บ <span class="yellow">www.dpay.com</span>
+                    <strong>แจ้งปัญหาโทร :</strong> <span class="yellow">093-949-0098</span> หรือ ผ่านหน้าเว็บ <span class="yellow">www.dee-pay.com</span>
                 </p>
             </div>
             <!--Contact-details ends-->
@@ -83,7 +84,7 @@
 
     <div class="slider">
         <div class="container">
-            <div class="bannersContainer">
+            <div class="bannersContainer" style="height:250px;">
                 <div>
                     <img src="images/banner.jpg" />
                 </div>
