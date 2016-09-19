@@ -1,5 +1,6 @@
 <!-- Country dropdown list by ahandy --!>
-<select>
+<select id="country" name="country" class="country" required>
+   <option disabled selected>---</option>
     <option value="Afghanistan">Afghanistan</option>
     <option value="Albania">Albania</option>
     <option value="Algeria">Algeria</option>
@@ -119,7 +120,7 @@
     <option value="Kyrgyzstan">Kyrgyzstan</option>
     <option value="Lao">Lao People's Democratic Republic</option>
     <option value="Latvia">Latvia</option>
-    <option value="Lebanon" selected>Lebanon</option>
+    <option value="Lebanon">Lebanon</option>
     <option value="Lesotho">Lesotho</option>
     <option value="Liberia">Liberia</option>
     <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
