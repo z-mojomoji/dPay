@@ -620,12 +620,12 @@ ul.sideMenu li.greyMenu:hover {
 
 .productBox:nth-child(2n),
 .yellowBox:nth-child(2n) {
-    float: right;
+    float: left;
 }
 
 .productBox:nth-child(2n+1),
 .yellowBox:nth-child(2n+1) {
-    float: left;
+    float: right;
 }
 
 .productBox:hover {

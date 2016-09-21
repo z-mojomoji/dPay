@@ -85,9 +85,6 @@
         </div>
     </div>
     <!--rightCol-->
-<?php 
-    include('foot.php');
-?>
     <script>
         $(document).ready(function () {
             $('.galletSlider').slick({
@@ -98,5 +95,6 @@
             });
         });
     </script>
-
-</html>
+<?php
+    include('foot.php');
+?>
