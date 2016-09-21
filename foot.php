@@ -17,14 +17,14 @@
         <div class="column">
             <div class="title">ตู้ดีเพย์</div>
             <ul>
-                <li><a href="#" target="_blank">
+                <li><a href="property.php" target="_blank">
                         คุณสมบัติตู้
                     </a></li>
-                <li><a href="#" target="_blank">
-                        ดีเพย์ท็อปอัพ
-                    </a></li>
-                <li><a href="#" target="_blank">
+                <li><a href="service.php" target="_blank">
                         สินค้าและบริการ
+                    </a></li>
+                <li><a href="howto.php" target="_blank">
+                        วิธีการใช้งาน
                     </a></li>
             </ul>
         </div>
@@ -47,36 +47,30 @@
                 <li><a href="partnership_service.php" target="_blank">
                         ตัวแทนติดตั้ง/บริการ
                     </a></li>
-                <li><a href="#" target="_blank">
+                <li><a href="profit.php" target="_blank">
                         รายได้ที่คุณจะได้รับ
                     </a></li>
             </ul>
         </div>
         <div class="column">
-            <div class="title">Heading</div>
+            <div class="title">ศูนย์บริการ</div>
             <ul>
                 <li><a href="#" target="_blank">
-                        คุณสมบัติตู้
+                        บริการซ่อมตู้
                     </a></li>
                 <li><a href="#" target="_blank">
-                        ดีเพย์ท็อปอัพ
-                    </a></li>
-                <li><a href="#" target="_blank">
-                        สินค้าและบริการ
+                        บริการขาย
                     </a></li>
             </ul>
         </div>
         <div class="column">
-            <div class="title">ตู้ดีเพย์</div>
+            <div class="title">ติดต่อเรา</div>
             <ul>
-                <li><a href="#" target="_blank">
-                        คุณสมบัติตู้
+                <li><a href="about.php" target="_blank">
+                        เกี่ยวกับเรา
                     </a></li>
-                <li><a href="#" target="_blank">
-                        ดีเพย์ท็อปอัพ
-                    </a></li>
-                <li><a href="#" target="_blank">
-                        สินค้าและบริการ
+                <li><a href="career.php" target="_blank">
+                        ร่วมงานกับเรา
                     </a></li>
             </ul>
         </div>

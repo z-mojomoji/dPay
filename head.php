@@ -47,21 +47,21 @@
                 <li>
                     <a href="#">ดีเพย์ท๊อปอัพ</a>
                     <ul class="subMenu">
-                        <li><a href="">คุณสมบัติตู้</a></li>
-                        <li><a href="">สินค้าและบริการ</a></li>
-                        <li><a href="">วิธีการใช้งาน</a></li>
+                        <li><a href="property.php">คุณสมบัติตู้</a></li>
+                        <li><a href="service.php">สินค้าและบริการ</a></li>
+                        <li><a href="howto.php">วิธีการใช้งาน</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="">ช่องทางธุรกิจ</a>
+                    <a href="#">ช่องทางธุรกิจ</a>
                     <ul class="subMenu">
                         <li><a href="partnership_owner.php">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
                         <li><a href="partnership_franchise.php">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
                         <li><a href="partnership_saledealer.php">เป็นตัวแทนขาย</a></li>
                         <li><a href="partnership_dealer.php">เป็นตัวแทนจำหน่าย</a></li>
                         <li><a href="partnership_service.php">เป็นตัวแทนติดตั้ง/บริการ</a></li>
-                        <li><a href="">รายได้ที่คุณจะได้รับ</a></li>
+                        <li><a href="profit.php">รายได้ที่คุณจะได้รับ</a></li>
                         <li><a href="register.php">กรอกใบสมัครออนไลน์</a></li>
                     </ul>
                     <!--submenu-->
@@ -72,8 +72,8 @@
                 <li>
                     <a href="">ติดต่อเรา</a>
                     <ul class="subMenu">
-                        <li><a href="">เกี่ยวกับเรา</a></li>
-                        <li><a href="">ร่วมงานกับเรา</a></li>
+                        <li><a href="about.php">เกี่ยวกับเรา</a></li>
+                        <li><a href="career.php">ร่วมงานกับเรา</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
