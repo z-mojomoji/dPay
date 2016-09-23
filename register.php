@@ -6,6 +6,8 @@
 
             <h1>Registration</h1>
             <form class="register" action="thanks.php" method="POST" id="register">
+            <input type="hidden" name="page" value="มีผู้สนใจตู้" />
+            <input type="hidden" name="message" value="" />
             <fieldset class="row2">
                 <legend>Personal Details</legend>
                 <p>

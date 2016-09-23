@@ -904,7 +904,7 @@ footer .container .column h3 {
 
 /********Registeration Form**********/
 
-form.register h4 {
+form h4 {
     padding: 1px;
     color: #ACACAC;
     font-size: 9pt;
@@ -912,7 +912,7 @@ form.register h4 {
     text-transform: uppercase;
 }
 
-form.register {
+form {
     margin-top: 50px;
     width: 800px;
     height: 530px;
@@ -923,14 +923,14 @@ form.register {
 }
 
 form p {
-    font-size: 8pt;
+    font-size: 12px;
     clear: both;
     margin: 0;
     color: gray;
     padding: 4px;
 }
 
-form.register fieldset.row1 {
+form fieldset.row1 {
     width: 770px;
     padding: 5px;
     float: left;
@@ -938,7 +938,7 @@ form.register fieldset.row1 {
     margin-top: 40px;
 }
 
-form.register fieldset.row1 label {
+form fieldset.row1 label {
     width: 140px;
     float: left;
     text-align: right;
@@ -946,28 +946,28 @@ form.register fieldset.row1 label {
     margin-top: 2px;
 }
 
-form.register fieldset.row2 {
+form fieldset.row2 {
 /*    height: 220px;*/
     margin-bottom: 15px;
     padding: 5px;
     float: left;
 }
 
-form.register fieldset.row3 {
+form fieldset.row3 {
     padding: 5px;
     float: left;
     margin-bottom: 15px;
     width: 400px;
 }
 
-form.register fieldset.row4 {
+form fieldset.row4 {
     padding: 5px;
     float: left;
     clear: both;
     width: 500px;
 }
 
-form.register .infobox {
+form .infobox {
     float: right;
     margin-top: 20px;
     border: 1px solid #F1F1F1;
@@ -978,7 +978,7 @@ form.register .infobox {
     background: #FFF;
 }
 
-form.register legend {
+form legend {
     color: #e5d221;
     padding: 2px;
     margin-left: 14px;
@@ -987,7 +987,7 @@ form.register legend {
     font-weight: 100;
 }
 
-form.register label {
+form label {
     color: #444;
     width: 98px;
     float: left;
@@ -996,7 +996,7 @@ form.register label {
     margin-top: 2px;
 }
 
-form.register label.optional {
+form label.optional {
     float: left;
     text-align: right;
     margin-right: 6px;
@@ -1004,35 +1004,40 @@ form.register label.optional {
 /*    color: #A3A3A3;*/
 }
 
-form.register label.obinfo {
+form label.obinfo {
     float: right;
     padding: 3px;
     font-style: italic;
 }
 
-form.register input {
+form input {
     width: 140px;
     color: #505050;
     float: left;
     margin-right: 5px;
 }
 
-form.register input.long {
+form input.long {
     width: 215px;
     color: #505050;
 }
 
-form.register input.short {
+form input.longer {
+    width: 355px;
+    color: #505050;
+}
+
+form input.short {
     width: 40px;
     color: #505050;
 }
 
-form.register input[type=radio] {
+form input[type=radio] {
     float: left;
     width: 15px;
 }
 
-form.register label.gender {
+form label.gender {
     margin-top: -1px;
     margin-bottom: 2px;
     width: 34px;
@@ -1041,13 +1046,13 @@ form.register label.gender {
     line-height: 19px;
 }
 
-form.register input[type=text],
-form.register input[type=email]{
+form input[type=text],
+form input[type=email]{
     border: 1px solid #E1E1E1;
     height: 18px;
 }
 
-form.register input[type=password] {
+form input[type=password] {
     border: 1px solid #E1E1E1;
     height: 18px;
 }
@@ -1060,18 +1065,18 @@ form.register input[type=password] {
     -webkit-transition: all 0.3s ease;
 }
 
-form.register input[type=text].year {
+form input[type=text].year {
     border: 1px solid #E1E1E1;
     height: 15px;
     width: 40px;
 }
 
-form.register input[type=checkbox] {
+form input[type=checkbox] {
     width: 14px;
     margin-top: 4px;
 }
 
-form.register select {
+form select {
     border: 1px solid #E1E1E1;
     width: 130px;
     float: left;
@@ -1080,16 +1085,17 @@ form.register select {
     margin-right: 5px;
 }
 
-form.register select.country {
+form select.country {
     width: 217px;
 }
 
-form.register select.date {
+form select.date {
     width: 40px;
 }
 
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
     outline: none;
     background-color: #fefccd;
 }
@@ -1108,6 +1114,23 @@ p.agreement label {
     text-align: left;
     margin-top: 3px;
 }
+
+.row2.noneF {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 475px;
+}
+
+.noneF {
+    float: none !important;
+}
+
+form textarea {
+    width: 351px;
+    border: 1px solid #E1E1E1;
+}
+
 /****How to order****/
 
 .howtoBox {
@@ -1383,6 +1406,19 @@ p.agreement label {
 }
 
 .careerBox h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+/********Thanks*********/
+
+.thanksCon {
+    margin-top: 50px;
+}
+
+.thanksBox h2 {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
