@@ -17,15 +17,17 @@
         <div class="column">
             <div class="title">ตู้ดีเพย์</div>
             <ul>
-                <li><a href="property.php" target="_blank">
+                <li><a href="product.php" target="_blank">
                         คุณสมบัติตู้
                     </a></li>
                 <li><a href="service.php" target="_blank">
                         สินค้าและบริการ
                     </a></li>
+<!--
                 <li><a href="howto.php" target="_blank">
                         วิธีการใช้งาน
                     </a></li>
+-->
             </ul>
         </div>
 
@@ -55,11 +57,8 @@
         <div class="column">
             <div class="title">ศูนย์บริการ</div>
             <ul>
-                <li><a href="#" target="_blank">
-                        บริการซ่อมตู้
-                    </a></li>
-                <li><a href="#" target="_blank">
-                        บริการขาย
+                <li><a href="branch.php" target="_blank">
+                        กรุงเทพและปริมณฑล
                     </a></li>
             </ul>
         </div>
