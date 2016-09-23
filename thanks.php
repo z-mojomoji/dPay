@@ -32,10 +32,35 @@
         <!--starts here-->
         <div class="thanksCon">
         <h2>ขอบคุณค่ะ ทางเราจะติดต่อกลับไปหาท่านค่ะ</h2>
+        <h3>กำลังพาท่านกลับสู่หน้าหลักในอีก <span id="countdown">5</span> วินาที</h3>
         </div>
         <!--ends here-->
     </div>
     <!--rightCol-->
+    <style>
+
+    </style>
+
+<script type="text/javascript">
+
+(function () {
+    var timeLeft = 5,
+        cinterval;
+
+    var timeDec = function (){
+        timeLeft--;
+        document.getElementById('countdown').innerHTML = timeLeft;
+        if(timeLeft === 0){
+            window.location = "index.php";
+            clearInterval(cinterval);
+        }
+    };
+
+    cinterval = setInterval(timeDec, 1000);
+})();
+
+</script>
+
 <?php
     include("foot.php");
 ?>
