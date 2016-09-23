@@ -16,7 +16,7 @@
             </div><!--leftbox-->
             <div class="rightBox right">
 
-            </div><!--rightbox>
+            </div><!--rightbox-->
         </div>
 
         <!--ends here-->

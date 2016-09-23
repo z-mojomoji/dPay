@@ -26,7 +26,7 @@
 ?>
     <div class="rightCol right content clearfix inner">
         <!--starts here-->
-        <h2>ขอบคุณค่ะ ทางเราจะติดต่อกลับไปหาท่านนะคะ</h2>
+        <h2>ขอบคุณค่ะ ทางเราจะติดต่อกลับไปหาท่านค่ะ</h2>
         <!--ends here-->
     </div>
     <!--rightCol-->
