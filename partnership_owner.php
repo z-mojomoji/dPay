@@ -5,7 +5,7 @@
         <!--starts here-->
         <h1>OWNER <span>เป็นเจ้าของตู้แบบซื้อขาด</span></h1>
         <div class="partnerCon">
-            <img src="images/banner.jpg" class="img-responsive p-img" />
+            <img src="images/owner.gif" class="img-responsive p-img" />
             <h4>ข้อดีของซื้อขาด</h4>
             <ol>
                 <li>เจ้าของได้รับผลประโยชน์เพียงคนเดียวไม่ต้องมีส่วนแบ่ง</li>

@@ -5,7 +5,7 @@
         <!--starts here-->
         <h1>SERVICE AGENTS <span>เป็นตัวแทนติดตั้งและบริการตู้ดีเพย์</span></h1>
         <div class="partnerCon">
-            <img src="images/banner.jpg" class="img-responsive p-img" />
+            <img src="images/service.gif" class="img-responsive p-img" />
             <h4>ตัวแทนติดตั้งและบริการตู้ดีเพย์ คืออะไร</h4>
             <p>ตัวแทนติดตั้งและบริการตู้กะปุก คือ บุคคล หรือ นิติบุคคลที่สนใจธุรกิจ ต้องการรายได้เสริม
 มีทักษะช่าง ใช้อินเตอร์เน็ตได้ สามารถดูแลตู้ได้เป็นอย่างดี และมีใจรักงานด้านบริการ</p>

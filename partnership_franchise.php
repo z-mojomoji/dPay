@@ -5,7 +5,7 @@
         <!--starts here-->
         <h1>FRANCHISE <span>เป็นเจ้าของตู้แบบแฟรนไชส์</span></h1>
         <div class="partnerCon">
-            <img src="images/banner.jpg" class="img-responsive p-img" />
+            <img src="images/franchise.gif" class="img-responsive p-img" />
             <div class="priceBox">
                 แฟรนไซส์ <br>
                 9,000 บาท

@@ -5,7 +5,7 @@
         <!--starts here-->
         <h1>SALEDEALER <span>เป็นตัวแทนขาย</span></h1>
         <div class="partnerCon">
-            <img src="images/banner.jpg" class="img-responsive p-img" />
+            <img src="images/saledealer.gif" class="img-responsive p-img" />
             <h4>ตัวแทนขายคืออะไร</h4>
             <p>ตัวแทนขาย คือ บุคคล หรือ นิติบุคคลที่เข้ามามีส่วนร่วมในการเสนอขายกะปุกท็อปอัพ ขายแบบอิสระ รับผลตอบแทนเป็นคอมมิชชั่นการขาย</p>
 
