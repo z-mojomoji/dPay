@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
     <script type="text/javascript" src="js/slick/slick.js"></script>
     <script type="text/javascript" src="js/jquery.validate.js"></script>
 
