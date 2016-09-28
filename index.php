@@ -24,7 +24,7 @@
                     <p>ตู้ดีเพย์อัพรุ่น DP3-01
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
-                    <p class="price">ราคา <span>35,9 บาท</span></p>
+                    <p class="price">ราคา <span>35,900 บาท</span></p>
                     <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->

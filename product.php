@@ -11,7 +11,7 @@
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
                     <p class="price">ราคา <span>35,900 บาท</span></p>
-                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
+                    <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
@@ -25,7 +25,7 @@
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
                     <p class="price">ราคา <span>35,9 บาท</span></p>
-                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
+                    <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
@@ -39,7 +39,7 @@
                         <br> รับได้เฉพาะเหรียญ
                         <br> หน้าจอสัมผัส 7"</p>
                     <p class="price">ราคา <span>35,9 บาท</span></p>
-                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
+                    <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />

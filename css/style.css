@@ -58,17 +58,18 @@ table {
 
 ol {
    list-style: none;
+    counter-reset: item;
  }
 
-ol li {
-   counter-increment: item;
-   margin-bottom: 5px;
+ol li.count {
+    counter-increment: item;
+    margin-bottom: 5px;
     padding-left: 40px;
     position: relative;
     line-height: 1.4em;
  }
 
-ol li:before {
+ol li.count:before {
    margin-right: 10px;
    content: counter(item);
    background: #EAC753;
@@ -1437,4 +1438,55 @@ form textarea {
 #countdown {
     color: #EAC753;
     font-weight: bold;
+}
+
+/*******Income**********/
+
+.incomeCon {
+    margin-top: 50px;
+}
+
+.incomeCon h2 {
+    text-align: center;
+    margin: 20px auto 10px;
+    line-height: 1.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EAC753;
+}
+ol li ul li:before {
+    background-color: transparent;
+    height: 0;
+    width: 0;
+}
+
+ol li ul {
+    padding-top: 5px !important;
+}
+
+ol li ul li {
+    padding-left: 25px !important;
+}
+
+ul li ul.sub li:before {
+    content: "- " !important;
+    color: #EAC753; /* or whatever color you prefer */
+}
+
+.smsstyle08 { font-size:11px; color: #ffffff}
+blockquote {
+    padding: 5px 0px;
+}
+
+blockquote table tr td {
+    border: 2px solid #FFF;
+    padding: 3px;
+}
+
+blockquote table tr td strong {
+    text-align: center;
+}
+
+.ownersmall01 {
+    font-size: 12px;
 }
