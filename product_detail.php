@@ -28,6 +28,8 @@
                             <div class="thumb" style="background-image: url(images/03.jpg)"></div>
                         </div>
                     </div>
+                    <a class="button block productOrder" target="_blank" href="register.php"><i class="fa fa-shopping-cart"></i>สั่งซื้อตู้นี้</a>
+                    <a class="button block productHowto" target="_blank" href="howtoorder.php"><i class="fa fa-list-alt"></i>วิธีการสั่งซื้อ</a>
                     <p><strong>ส่วนประกอบต่างๆของตู้</strong></p>
                         <ul class="twoCol clearfix">
                             <li>หน้าจอสัมผัสขนาด 7 นิ้ว</li>
@@ -38,6 +40,7 @@
                             <li>ขาตู้</li>
                             <li>น็อตสำหรับล็อคขาตู้</li>
                         </ul>
+
                 </div><!--thumbnail-->
                 <div class="productTxt right">
                    <h2>คุณสมบัติ</h2>
