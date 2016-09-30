@@ -185,10 +185,14 @@
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 6px;
+    height: 6px;
 
-    content: '•';
+/*    content: '•';*/
+    content: '';
+    display: block;
+    background-color: #000;
+    border-radius: 50%;
     text-align: center;
 
     opacity: .25;
