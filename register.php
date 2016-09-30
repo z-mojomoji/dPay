@@ -4,7 +4,7 @@
     <div class="rightCol right content">
         <!--starts here-->
 
-            <h1>Registration</h1>
+            <h1>Registration <span>ลงทะเบียนสำหรับผู้สนใจตู้</span></h1>
             <form class="register" action="thanks.php" method="POST" id="register">
             <input type="hidden" name="page" value="มีผู้สนใจตู้" />
             <input type="hidden" name="message" value="" />
