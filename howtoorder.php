@@ -86,7 +86,7 @@
             </div><!--1step-->
              <div class="howtoBox left">
                 <p class="steps">Step 3</p>
-                <img src="images/step1.jpg">
+                <img src="images/step3.jpg">
                 <h4>เจ้าหน้าที่ติดตั้ง</h4>
                 <p class="pd0">เจ้าหน้าที่ติดตั้งจะนัดลูกค้าเพื่อติดตั้งหน้างาน หรือจัดส่งตามที่อยู่ที่ท่านแจ้งเอาไว้</p>
                 <div class="stepDetail">
