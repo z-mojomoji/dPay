@@ -50,7 +50,7 @@
         <div class="container">
             <ul class="navBar">
                 <li>
-                    <a href="index.php">ดีเพย์ท๊อปอัพ</a>
+                    <a href="index.php">ดีเพย์</a>
                     <ul class="subMenu">
                         <li><a href="product.php">คุณสมบัติตู้</a></li>
                         <li><a href="service.php">สินค้าและบริการ</a></li>

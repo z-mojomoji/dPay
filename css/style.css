@@ -603,6 +603,10 @@ ul.sideMenu li.greyMenu:hover {
     padding-top: 5px;
 }
 
+.content .no-in {
+    text-indent: 0 !important;
+}
+
 .content p {
     line-height: 1.3em;
 }
@@ -1572,4 +1576,67 @@ blockquote table tr td strong {
     right: 30px;
     bottom: 30px;
   }
+}
+
+/*********Service***********/
+
+.serviceList {
+    margin-top: 50px;
+}
+
+.serviceBox {
+    float: left;
+    margin-left: 20px;
+    width: 403px;
+    border: 1px solid #f29b11;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 280px;
+    padding: 30px 20px 20px;
+    margin-bottom: 40px;
+}
+
+.serviceBox p {
+    text-indent: 25px;
+    font-size: 13px;
+    padding: 5px 0px;
+}
+
+.serviceBox h3 {
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    width: 280px;
+    text-align: center;
+    font-family: "ThaiSans", Arial, sans-serifs;
+    font-size: 22px;
+    padding: 5px 10px;
+    top: -20px;
+    border-radius: 20px;
+    left: calc(50% - 150px);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcf34b+0,fbe510+100 */
+    background: #f29b11;
+    background: -moz-linear-gradient(top, #f29b11 0%, #db7f00 100%);
+    background: -webkit-linear-gradient(top, #f29b11 0%,#db7f00 100%);
+    background: linear-gradient(to bottom, #f29b11 0%,#db7f00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29b11', endColorstr='#db7f00',GradientType=0 );
+}
+
+.serviceBox ul.iconList {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.serviceBox ul.iconList li{
+    display: inline-block;
+}
+
+.serviceBox:last-child,
+.serviceBox:nth-last-child(2){
+     margin-bottom: 0px;
 }
