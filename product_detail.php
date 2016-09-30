@@ -11,6 +11,52 @@
    <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css">
    <link rel="stylesheet" href="js/pikachoose-96/styles/css3.css">
     <script src="js/fancybox/source/jquery.fancybox.pack.js"></script> 
+    <style>
+    
+
+        #images li {
+            overflow: hidden;
+            float: left;
+        }
+
+        .inner ul#images li:before {
+            content: "";
+            display: none;
+            background-color: transparent;
+            width: 0;
+            height: 0;
+        }
+
+        .pika-stage {
+            border: none;
+            -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+            -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+            margin-bottom: 10px;
+            height: 210px;
+        }
+
+        .pika-stage img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 350px;
+            height: 210px;
+        }
+
+        .pika-thumbs li {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #eee;
+            -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+            -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
+        }
+
+        .pika-stage .caption {
+            display: none !important;
+        }
+    </style>
 
     <div class="rightCol right content inner">
             <h1>ดีเพย์รุ่น DP3-01</h1>
@@ -23,6 +69,9 @@
                           <li><a href="images/coin-b.jpg"><img src="images/coin-show.jpg"></a></li>
                           <li><a href="images/screen-b.jpg"><img src="images/screen-show.jpg"></a></li>
                         </ul>
+                    </div>
+                    <div class="priceBox">
+                        <h3>ราคา 39,900 บาท</h3>
                     </div>
                     <a class="button block productOrder" target="_blank" href="register.php"><i class="fa fa-shopping-cart"></i>สั่งซื้อตู้นี้</a>
                     <a class="button block productHowto" target="_blank" href="howtoorder.php"><i class="fa fa-list-alt"></i>วิธีการสั่งซื้อ</a>
@@ -38,43 +87,31 @@
                         </ul>
                 </div><!--thumbnail-->
                 <div class="productTxt right">
-                   <h2>คุณสมบัติ</h2>
-                    <p><strong>ทางด้านเทคนิคและการบริการ</strong></p>
+                   <h2>รายละเอียดตู้เติมเงินมือถือ</h2>
+<!--                    <p><strong>ทางด้านเทคนิคและการบริการ</strong></p>-->
                         <ol>
-                            <li class="count">ระบบเติมเงินที่ครอบคลุมทุกเครือข่ายและบริการ</li>
-                            <li class="count">ระบบจัดการที่ออกแบบมาให้เจ้าของตู้บริหารจัดการได้ง่าย</li>
-                            <li class="count">มีระบบช่วยเหลือหลายช่องทาง ผ่านหน้าตู้, บนเว็บไซต์, Call Center</li>
-                            <li class="count">จอแสดงผลขนาด 7 นิ้ว รับคำสั่งผ่านหน้าจอระบบสัมผัส</li>
-                            <li class="count">ระบบแจ้งเตือนที่คุณสามารถกำหนดได้เอง (เงินคงเหลือ, เงินเต็ม ฯลฯ</li>
-                            <li class="count">แจ้งปัญหาเกี่ยวกับการเติมเงินได้ตลอด 24 ชั่วโมง ผ่านทางเว็บไซต์</li>
-                            <li class="count">การเติมเงินทุกระบบ (มือถือ) เชื่อมต่อกับผู้ให้บริการโดยตรง</li>
-                            <li class="count">ทีมงานที่มีประสบการณ์ พร้อมดูแลและให้คำแนะนำ</li>
+                            <li class="count">สามารถหยอดเหรียญตั้งแต่ 10 บาทขึ้นไป และสามารถสะสมยอดไว้ในเลขหมายเพื่อเติมในครั้งต่อไปในกรณีใส่เงินเกิน</li>
+                            <li class="count">เครื่องรับธนบัตร รับได้ 20,50,100,1000 บาทกี่ใบก็ได้ไม่จำกัด</li>
+                            <li class="count">เติมเงินได้ทุกระบบในปัจจุบัน เกมส์ออนไลน์ ซื้อบัตรเงินสด และจ่ายบิลตรอบคลุมทุกบริการ</li>
+                            <li class="count">ตรวจสอบการใช้บริการได้ ผ่านมือถือ หรือ INTERNET</li>
+                            <li class="count">ตรวจสอบจำนวนเงินในตู้ได้ว่ามีเหรียญเท่าไหร่มีธนบัตรเท่าไหร่</li>
+                            <li class="count">มีเสียงพูดแนะนำการใช้งานทุกขั้นตอน</li>
+                            <li class="count">กรณีไฟดับมีระบบสำรองไฟนาน 3 ชั่วโมง</li>
+                            <li class="count">ระบบเปิดปิดไฟแสงสว่างหน้าตู้อัตโนมัติ</li>
+                            <li class="count">ขาตู้ยึดติดกับพื้นปูนได้ โดยออกแบบให้ซ่อนหัวน๊อต ป้องกันการโจรกรรม</li>
+                            <li class="count">เทคโนโลยีเชื่อมต่อระบบ 0nline มีการเชื่อมต่อผ่านระบบเซฟเวอร์ (server)</li>
+                            <li class="count">เทคโนโลยี จากยุโรป</li>
+                            <li class="count">รับประกันสินค้า 3 ปี</li>
                         </ol>
-                    <p><strong>ทางด้านการออกแบบ</strong></p>
+                        
+                    <h2>รายละเอียดรายได้และผลตอบแทน</h2>
+                    
+<!--                    <p><strong>ค่าใช้จ่ายแปรผัน</strong></p>-->
                         <ol>
-                            <li class="count">การออกแบบให้ง่ายต่อการใช้งาน และบำรุงรักษา</li>
-                            <li class="count">การออกแบบที่ทันสมัยและเป็นเอกลักษณืของตัวเอง</li>
-                            <li class="count">การใช้งานที่สะดวกสบายด้วยหน้าจอขนาดใหญ่</li>
-                            <li class="count">ตัวตู้ทำจากวัสดุอย่างดี คงทนต่อการใช้งาน</li>
-                            <li class="count">การออกแบบด้านความปลอดภัย เป็นการยากต่อการโจรกรรม</li>
-                            <li class="count">การออกแบบกล่องเงินที่สามารถเก็บเงินได้มากขึ้น
-                            และเป็นรูปแบบที่แตกต่างจากยี่ห่ออื่น </li>
-                            <li class="count">การออกแบบขาตู้ทีมีความมั่นคงแข็งแรง</li>
-                        </ol>
-                    <h2>ค่าใช้จ่าย</h2>
-                    <p><strong>ค่าใช้งายคงที่</strong></p>
-                        <ol>
-                            <li class="count">ค่าบริการ GPRS บริษัทจะทำการเก็บค่าบริการรายเดือน เดือนละ 160.50 บาท (รวมภาษีแล้ว)</li>
-                            <li class="count">ค่าไฟ ของตู้เติมเงินกะปุก ใช้หม้อไฟ 220V เป็น 12V 3A ทำให้ค่าใช้จ่ายไฟไม่เกิน 50 บาท/เดือน</li>
-                            <li class="count">ค่าเช่าสถานที่ ขึ้นอยู่กับสถานที่ที่ทำการติดตั้ง ระหว่างเจ้าของตู้และเจ้าของสถานที่</li>
-                        </ol>
-                    <p><strong>ค่าใช้จ่ายแปรผัน</strong></p>
-                        <ol>
-                            <li class="count">ค่าบริการติดตั้งตู้ กรณีเกิน 100 กม. บริษัทจะคิดค่าบริการ</li>
-                            <li class="count">ค่าบริการนอกสถานที่ กรณีหมดประกันแล้ว ค่าใช้จ่ายจะขึ้นอยู่กับพื้นที่ๆ ออกไปบริการ</li>
-                            <li class="count">ค่าอุปกรณ์ที่เสียหาย ในกรณีเกิดความเสียหายจากการใช้งานไม่ปกติ ท่านเจ้าของตู้จะต้องออกค่าใช้จ่ายการซ่อมเองทั้งหมด</li>
-                            <li class="count">ค่าส่งสินค้า กรณีเสียหายหลังจากบริษัทส่งสินค้าและติดตั้งเรียบร้อยแล้ว หากเกิดความเสียหาย หรือจำเป็นต้องส่งมาที่สำนักงาน
-                            เจ้าของตู้จะต้องออกค่าใช้จ่ายในการจัดส่งทั้งหมด</li>
+                            <li class="count">ค่าบริการเติมเงินจากตู้เติมเงินครั้งละ 1-5 บาท</li>
+                            <li class="count">ค่าบริการชำระบิล บิลละ 5-10 บาท </li>
+                            <li class="count">ค่าคอมมิสชั่น แอร์ไทม์ จากการเติมเงินมือถือ 3% และค่าบริการแอร์ไทม์ชำระบิล 5-10 %</li>
+                            <li class="count">ค่าคอมมิสชั่นจากการเติมเงินระบบเกมส์ออนไลน์ 2-4 %</li>
                         </ol>
 
                 </div><!--productTxt-->

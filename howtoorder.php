@@ -9,7 +9,12 @@
                 <p class="steps">Step 1</p>
                 <img src="images/step1.jpg">
                 <h4>ลงทะเบียนหรือติดต่อ Call center</h4>
-                <p class="pd0">บริษัท Dee-pay จำกัด</p>
+                <p class="pd0">เตรียมเอกสารเพื่อการซื้อตู้ โดยมีเอกสารดังนี้</p>
+                <ol>
+                    <li class="count"> ใบสมัครจองสินค้า</li>
+                    <li class="count"> สำเนาบัตรประชาชน</li>
+                    <li class="count"> สำเนาทะเบียนบ้าน</li>
+                </ol>
                 <div class="stepDetail">
                     <div class="conInfo">
                         <p>
@@ -20,8 +25,9 @@
 
                      <div class="conInfo">
                         <p>
-                            <strong><span class="y">ลงทะเบียน </span></strong>
-                            <span>คลิก<a href="register.php">ที่นี้</a></span>
+                            <strong><span class="y">ลงทะเบียน พร้อมกรอกใบจอง </span></strong>
+                            <span>เพื่อลงทะเบียน คลิก<a href="register.php">ที่นี่</a></span>
+                            <span>เพื่อดาวโหลดใบจอง คลิก<a href="documents/booking.pdf">ที่นี่</a></span>
                         </p>
                     </div>
 
@@ -30,9 +36,9 @@
             <div class="howtoBox left">
                 <p class="steps">Step 2</p>
                 <img src="images/step1.jpg">
-                <h4>ลงทะเบียนหรือติดต่อ Call center</h4>
+                <h4>ชำระเงินผ่านธนาคาร และแสดงหลักฐาน</h4>
                 <p class="pd0">โอนมาที่ชื่อบัญชี สุธีร์ เหล่าอารีย์<br>
-                เมื่อโอนเสร็จแล้ว โปรดแสดงหลักฐานในการโอนผ่านเจ้าหน้าที่</p>
+                เมื่อโอนเสร็จแล้ว โปรดแสดงหลักฐานในการโอนพร้อมเอกสารอื่นๆ ในขั้นตอนที่ 1 ผ่านเจ้าหน้าที่</p>
                 <div class="stepDetail">
                     <div class="icon ic-1">
                         <p>

@@ -779,49 +779,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29b11', end
     color: #909090;
 }
 
-#images li {
-    overflow: hidden;
-    float: left;
-}
-
-.inner ul#images li:before {
-    content: "";
-    display: none;
-    background-color: transparent;
-    width: 0;
-    height: 0;
-}
-
-.pika-stage {
-    border: none;
-    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-    margin-bottom: 10px;
-    height: 210px;
-}
-
-.pika-stage img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 350px;
-    height: 210px;
-}
-
-.pika-thumbs li {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #eee;
-    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.18);
-}
-
-.pika-stage .caption {
-    display: none !important;
-}
-
 
 /******Yellow Box*******/
 
@@ -1104,7 +1061,7 @@ form input.long {
 }
 
 form input.longer {
-    width: 355px;
+    width: 353px;
     color: #505050;
 }
 
@@ -1237,6 +1194,15 @@ form textarea {
     margin-bottom: 15px;
 }
 
+.howtoBox ol {
+    text-align: left;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+}
 
 
 .howtoBox h4 {
@@ -1447,6 +1413,23 @@ form textarea {
 .twoCol li {
     float: left;
     width: 45%;
+}
+
+.productDetails .priceBox {
+    color: red;
+    border: 1px solid #dcdcdc;
+    background-color: #f6f6f6;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4em;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.18);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
 }
 
 /********Branch************/
@@ -1689,3 +1672,4 @@ blockquote table tr td strong {
 .serviceBox:nth-last-child(2){
      margin-bottom: 0px;
 }
+

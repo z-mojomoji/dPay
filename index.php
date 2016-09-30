@@ -10,7 +10,7 @@
                     <p>ตู้ดีเพย์รุ่น DP3-01
                         <br> รับได้ทั้งเหรียญ และธนาบัตร
                         <br> หน้าจอสัมผัส 7"</p>
-                    <p class="price">ราคา <span>39,000 บาท</span></p>
+                    <p class="price">ราคา <span>39,900 บาท</span></p>
                     <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
@@ -24,7 +24,7 @@
                     <p>ตู้ดีเพย์อัพรุ่น DP3-01
                         <br> รับได้ทั้งเหรียญ และธนาบัตร
                         <br> หน้าจอสัมผัส 7"</p>
-                    <p class="price">ราคา <span>39,000 บาท</span></p>
+                    <p class="price">ราคา <span>39,900 บาท</span></p>
                     <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
