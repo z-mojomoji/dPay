@@ -8,10 +8,10 @@
                 <div class="productDetail">
                     <h2>ดีเพย์รุ่น DP3-01</h2>
                     <p>ตู้ดีเพย์รุ่น DP3-01
-                        <br> รับได้เฉพาะเหรียญ
+                        <br> รับได้ทั้งเหรียญ และธนาบัตร
                         <br> หน้าจอสัมผัส 7"</p>
-                    <p class="price">ราคา <span>35,900 บาท</span></p>
-                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
+                    <p class="price">ราคา <span>39,000 บาท</span></p>
+                    <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
@@ -22,16 +22,16 @@
                 <div class="productDetail">
                     <h2>ดีเพย์รุ่น DP3-01</h2>
                     <p>ตู้ดีเพย์อัพรุ่น DP3-01
-                        <br> รับได้เฉพาะเหรียญ
+                        <br> รับได้ทั้งเหรียญ และธนาบัตร
                         <br> หน้าจอสัมผัส 7"</p>
-                    <p class="price">ราคา <span>35,9 บาท</span></p>
-                    <a class="moreDetails" href="" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
+                    <p class="price">ราคา <span>39,000 บาท</span></p>
+                    <a class="moreDetails" href="product_detail.php" title="ดูคุณสมบัติตู้">ดูคุณสมบัติตู้</a>
                 </div>
                 <!--productDetail-->
                 <img src="images/box.png" alt="ดีเพย์รุ่น DP3-01" class="productImg" />
             </div>
             <!--productBox-->
-            <a href="#" class="moreProduct clear">
+            <a href="product.php" class="moreProduct clear">
                         ดูทั้งหมด
                     </a>
         </div>
@@ -85,9 +85,6 @@
         </div>
     </div>
     <!--rightCol-->
-<?php 
-    include('foot.php');
-?>
     <script>
         $(document).ready(function () {
             $('.galletSlider').slick({
@@ -98,5 +95,6 @@
             });
         });
     </script>
-
-</html>
+<?php
+    include('foot.php');
+?>

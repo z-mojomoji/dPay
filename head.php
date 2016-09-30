@@ -9,12 +9,17 @@
     <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
     <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/jquery.validate.js"></script>
 
 </head>
 
 <body>
+    <?php
+        include('pop.php');
+    ?>
 
     <header>
         <div class="container">
@@ -33,8 +38,8 @@
             </div>
             <!--Contact-details ends-->
             <div class="loginBlock right clearfix">
-                <a href="#" class="loginBtn">Login</a>
-                <a href="#" class="helpBtn">ช่วยเหลือ / Help</a>
+                <a href="#" class="loginBtn disable">Login</a>
+                <a href="contact.php" class="helpBtn">ช่วยเหลือ / Help</a>
             </div>
             <!--loginBlock-->
         </div>
@@ -45,35 +50,35 @@
         <div class="container">
             <ul class="navBar">
                 <li>
-                    <a href="#">ดีเพย์ท๊อปอัพ</a>
+                    <a href="index.php">ดีเพย์</a>
                     <ul class="subMenu">
-                        <li><a href="">คุณสมบัติตู้</a></li>
-                        <li><a href="">สินค้าและบริการ</a></li>
-                        <li><a href="">วิธีการใช้งาน</a></li>
+                        <li><a href="product.php">คุณสมบัติตู้</a></li>
+                        <li><a href="service.php">สินค้าและบริการ</a></li>
+<!--                        <li><a href="howto.php">วิธีการใช้งาน</a></li>-->
                     </ul>
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="">ช่องทางธุรกิจ</a>
+                    <a href="partnership_owner.php">ช่องทางธุรกิจ</a>
                     <ul class="subMenu">
                         <li><a href="partnership_owner.php">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
                         <li><a href="partnership_franchise.php">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
                         <li><a href="partnership_saledealer.php">เป็นตัวแทนขาย</a></li>
                         <li><a href="partnership_dealer.php">เป็นตัวแทนจำหน่าย</a></li>
                         <li><a href="partnership_service.php">เป็นตัวแทนติดตั้ง/บริการ</a></li>
-                        <li><a href="">รายได้ที่คุณจะได้รับ</a></li>
+                        <li><a href="income.php">รายได้ที่คุณจะได้รับ</a></li>
                         <li><a href="register.php">กรอกใบสมัครออนไลน์</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="#">ศูนย์บริการ</a>
+                    <a href="branch.php">ศูนย์บริการ</a>
                 </li>
                 <li>
-                    <a href="">ติดต่อเรา</a>
+                    <a href="contact.php">ติดต่อเรา</a>
                     <ul class="subMenu">
-                        <li><a href="">เกี่ยวกับเรา</a></li>
-                        <li><a href="">ร่วมงานกับเรา</a></li>
+                        <li><a href="about.php">เกี่ยวกับเรา</a></li>
+                        <li><a href="career.php">ร่วมงานกับเรา</a></li>
                     </ul>
                     <!--submenu-->
                 </li>
@@ -104,7 +109,7 @@
             <div class="leftCol left">
                 <ul class="sideMenu mb40">
                     <li class="yellowMenu">
-                        <a href="#"></a>
+                        <a href="#" class="disable"></a>
                         <h2>Dealer Login</h2>
                         <span>เข้าระบบตัวแทน</span>
                     </li>
@@ -114,12 +119,12 @@
                         <span>ลงทะเบียนสำหรับผู้สนใจตู้</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="register.php"></a>
                         <h2>Location</h2>
                         <span>เสนอพื้นที่ติดตั้งตู้</span>
                     </li>
                     <li class="greyMenu">
-                        <a href="#"></a>
+                        <a href="#" class="disable"></a>
                         <h2>Brochure</h2>
                         <span>ดาวน์โหลดโบรชัวร์</span>
                     </li>

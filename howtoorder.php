@@ -31,17 +31,18 @@
                 <p class="steps">Step 2</p>
                 <img src="images/step1.jpg">
                 <h4>ลงทะเบียนหรือติดต่อ Call center</h4>
-                <p class="pd0">โอนมาที่ชื่อบัญชี บริษัท Dee-pay จำกัด<br>
+                <p class="pd0">โอนมาที่ชื่อบัญชี สุธีร์ เหล่าอารีย์<br>
                 เมื่อโอนเสร็จแล้ว โปรดแสดงหลักฐานในการโอนผ่านเจ้าหน้าที่</p>
                 <div class="stepDetail">
                     <div class="icon ic-1">
                         <p>
                             <strong>ธนาคารกสิกรไทย</strong><br>
-                            สาขาคลองสาน ออมทรัพย์ <br>
-                            เลขที่ <span class="y">068-2-83178-2</span>
+                            ออมทรัพย์ <br>
+                            เลขที่ <span class="y">728-5-6229-9</span>
                         </p>
                     </div>
 
+<!--
                      <div class="icon ic-2">
                         <p>
                             <strong>ธนาคารกรุงเทพ</strong><br>
@@ -73,6 +74,7 @@
                             เลขที่ <span class="y">068-2-83178-2</span>
                         </p>
                     </div>
+-->
 
                 </div>
             </div><!--1step-->
