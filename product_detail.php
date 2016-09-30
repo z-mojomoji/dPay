@@ -2,31 +2,27 @@
     include('head.php');
 ?>
 
+<!--
    <script src="js/thumbnail/hammer.min.js"></script>
    <link rel="stylesheet" href="css/gallery.css">
     <script src="js/thumbnail/gallery.js"></script>
+-->
+   <script src="js/pikachoose-96/lib/jquery.pikachoose.js"></script>
+   <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css">
+   <link rel="stylesheet" href="js/pikachoose-96/styles/css3.css">
+    <script src="js/fancybox/source/jquery.fancybox.pack.js"></script> 
 
     <div class="rightCol right content inner">
             <h1>ดีเพย์รุ่น DP3-01</h1>
             <div class="productDetails clearfix">
                 <div class="thumbnail left">
                     <div class="gallery">
-                        <div class="images">
-                            <div class="image active">
-                                <div class="content" style="background-image: url(images/01.jpg)"></div>
-                            </div>
-                            <div class="image">
-                                <div class="content" style="background-image: url(images/02.jpg)"></div>
-                            </div>
-                            <div class="image">
-                                <div class="content" style="background-image: url(images/03.jpg)"></div>
-                            </div>
-                        </div>
-                        <div class="thumbs">
-                            <div class="thumb active" style="background-image: url(images/01.jpg)"></div>
-                            <div class="thumb" style="background-image: url(images/02.jpg)"></div>
-                            <div class="thumb" style="background-image: url(images/03.jpg)"></div>
-                        </div>
+                        <ul id="images" class="clearfix">
+                          <li><a href="images/machine-b.jpg"><img src="images/machine-show.jpg"></a></li>
+                          <li><a href="images/side-b.jpg"><img src="images/side-show.jpg"></a></li>
+                          <li><a href="images/coin-b.jpg"><img src="images/coin-show.jpg"></a></li>
+                          <li><a href="images/screen-b.jpg"><img src="images/screen-show.jpg"></a></li>
+                        </ul>
                     </div>
                     <a class="button block productOrder" target="_blank" href="register.php"><i class="fa fa-shopping-cart"></i>สั่งซื้อตู้นี้</a>
                     <a class="button block productHowto" target="_blank" href="howtoorder.php"><i class="fa fa-list-alt"></i>วิธีการสั่งซื้อ</a>
@@ -40,7 +36,6 @@
                             <li>ขาตู้</li>
                             <li>น็อตสำหรับล็อคขาตู้</li>
                         </ul>
-
                 </div><!--thumbnail-->
                 <div class="productTxt right">
                    <h2>คุณสมบัติ</h2>
@@ -87,7 +82,10 @@
         </div><!--rightCol-->
     <script>
         $(function () {
-          $('.gallery').gallery();
+            var a = function(self){
+                  self.anchor.fancybox();
+               };
+            $("#images").PikaChoose({buildFinished:a, carousel:true});
         });
     </script>
 <?php

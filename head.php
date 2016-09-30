@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <?php   header('Content-Type: text/html; charset=utf-8'); ?>
     <title>DeePay :: เครื่องเติมเงินที่ดีที่สุดในประเทศ</title>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">

@@ -38,7 +38,7 @@
         <!--productList-->
         <div class="yellowList clearfix">
             <div class="yellowBox">
-                <a href="#" title="Service สินค้าและบริการ"></a>
+                <a href="service.php" title="Service สินค้าและบริการ"></a>
                 <div class="yellowDetail">
                     <h2>Service</h2>
                     <p>สินค้าและบริการ</p>
