@@ -39,8 +39,8 @@
             </div>
             <!--Contact-details ends-->
             <div class="loginBlock right clearfix">
-                <a href="#" class="loginBtn disable">Login</a>
-                <a href="contact.php" class="helpBtn">ช่วยเหลือ / Help</a>
+                <a href="https://www.thaithurium.com/#/login" class="loginBtn"><i class="fa fa-lock"></i>Login</a>
+<!--                <a href="contact.php" class="helpBtn">ช่วยเหลือ / Help</a>-->
             </div>
             <!--loginBlock-->
         </div>
@@ -60,8 +60,8 @@
                     <!--submenu-->
                 </li>
                 <li>
-                    <a href="partnership_owner.php">ช่องทางธุรกิจ</a>
-                    <ul class="subMenu">
+                    <a href="#">ช่องทางธุรกิจ</a>
+                    <!--<ul class="subMenu">
                         <li><a href="partnership_owner.php">เป็นเจ้าของตู้แบบซื้อขาด</a></li>
                         <li><a href="partnership_franchise.php">เป็นเจ้าของตู้แบบแฟรนไซส์</a></li>
                         <li><a href="partnership_saledealer.php">เป็นตัวแทนขาย</a></li>
@@ -70,7 +70,7 @@
                         <li><a href="income.php">รายได้ที่คุณจะได้รับ</a></li>
                         <li><a href="register.php">กรอกใบสมัครออนไลน์</a></li>
                     </ul>
-                    <!--submenu-->
+                    submenu-->
                 </li>
                 <li>
                     <a href="branch.php">ศูนย์บริการ</a>
@@ -109,11 +109,13 @@
         <div class="container">
             <div class="leftCol left">
                 <ul class="sideMenu mb40">
+<!--
                     <li class="yellowMenu">
                         <a href="#" class="disable"></a>
                         <h2>Dealer Login</h2>
                         <span>เข้าระบบตัวแทน</span>
                     </li>
+-->
                     <li class="greyMenu">
                         <a href="register.php"></a>
                         <h2>Register</h2>
@@ -137,7 +139,7 @@
                 </ul>
                 <!--sideMenu-->
 
-                <div class="businessArea mb40">
+                <!--<div class="businessArea mb40">
                     <h2>ช่องทางธุรกิจ</h2>
                     <ul class="businessList">
                         <li>
@@ -157,6 +159,32 @@
                         </li>
                         <li>
                             <a href="partnership_dealer.php" title="สนใจเป็นตัวแทนจำหน่าย" target="_blank">
+                                สนใจเป็นตัวแทนจำหน่าย
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                businessArea-->
+                <div class="businessArea mb40">
+                    <h2>ช่องทางธุรกิจ</h2>
+                    <ul class="businessList">
+                        <li>
+                            <a href="#" title="สนใจเป็นเจ้าของตู้" target="_blank">
+                                สนใจเป็นเจ้าของตู้
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="สนใจเป็นแฟรนไชส์" target="_blank">
+                                สนใจเป็นแฟรนไชส์
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="สนใจเป็นตัวแทนขาย" target="_blank">
+                                สนใจเป็นตัวแทนขาย
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="สนใจเป็นตัวแทนจำหน่าย" target="_blank">
                                 สนใจเป็นตัวแทนจำหน่าย
                             </a>
                         </li>

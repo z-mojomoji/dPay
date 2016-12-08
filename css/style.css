@@ -265,27 +265,50 @@ ul.navBar::after {
     margin: 0px 10px;
 }
 
+/*
 .loginBlock a.loginBtn {
     color: #FFF;
 }
+*/
 
+/*
 .loginBlock a.loginBtn:hover {
-/*    color: #fbe40f;*/
+    color: #fbe40f;
     color: #fff061;
 }
+*/
 
-.loginBlock a.helpBtn {
+.loginBlock a.helpBtn,
+.loginBlock a.loginBtn {
     color: #313131;
-    background-color: #fbe40f;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbe40f+0,fbe40f+100 */
+    background: #fbe40f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fbe40f 0%, #fbe40f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fbe40f 0%,#fbe40f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fbe40f 0%,#fbe40f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe40f', endColorstr='#fbe40f',GradientType=0 ); /* IE6-9 */
     border-radius: 50px;
     width: 160px;
     text-align: center;
     font-weight: normal;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+    -webkit-transition: background 0.3s ease;
 }
 
-.loginBlock a.helpBtn:hover {
-    background-color: #fff061;
+.loginBlock a.helpBtn:hover,
+.loginBlock a.loginBtn:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbe40f+0,fff061+100 */
+    background: #fbe40f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fbe40f 0%, #fff061 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fbe40f 0%,#fff061 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fbe40f 0%,#fff061 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe40f', endColorstr='#fff061',GradientType=0 ); /* IE6-9 */
+}
+
+.loginBlock a.loginBtn .fa {
+    padding-right: 10px;
+    font-size: 15px;
 }
 
 /***Navigation Bar****/

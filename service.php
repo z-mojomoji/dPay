@@ -13,7 +13,7 @@
                     <li><img src="images/my.jpg" alt="My World" /></li>
                     <li><img src="images/truemove.jpg" alt="TrueMove" /></li>
                     <li><img src="images/trueH.jpg" alt="TrueMove H" /></li>
-                    <li><img src="images/pct.jpg" alt="WE PCT" /></li>
+<!--                    <li><img src="images/pct.jpg" alt="WE PCT" /></li>-->
                     <li><img src="images/penguin.jpg" alt="Penguin" /></li>
                 </ul>
             </div><!--serviceBox-->
@@ -45,7 +45,7 @@
                     <li><img src="images/trueH.jpg" alt="TrueMove H" /></li>
                 </ul>
             </div><!--serviceBox-->
-            <div class="serviceBox">
+            <!--<div class="serviceBox">
                 <h3>ส่ง SMS ถูกๆ</h3>
                 <p class="no-in">- ลูกค้าส่งข้อความละ 2 บาทหน้าตู้ สำหรับส่งข้อความ SMS ไปหมายเลขโทรศัพท์มือถือในประเทศไทย
                       (ส่งได้ทั้ง ภาษาไทยและภาษาอังกฤษ)<br>
@@ -53,7 +53,7 @@
                       (ส่งได้ภาษาอังกฤษเท่านั้น)<br>
                       <span class="small">ภาษาไทย ส่งได้ 70 ตัวอักษร (รวมสระและวรรณยุกต์) และ ภาษาอังกฤษ ส่งได้ 160 ตัวอักษร
 </span></p>
-            </div><!--serviceBox-->
+            </div>serviceBox-->
              <div class="serviceBox">
                 <h3>จำหน่ายแพ็คเกจ WIFI</h3>
                  <p>จำหน่าย WiFi 3BB แพ็คเก็จ สำหรับเล่นอินเตอร์แบบไร้สาย ได้ทุกที่ ทุกเวลา โดยเชื่อต่อกับอุปกรณ์ที่รองรับ ไม่ว่าจะเป็น Notebook, สมาร์ทโฟน, แท็บเล็ต ฯลฯ</p>
@@ -61,7 +61,7 @@
                     <li><img src="images/3bb.jpg" alt="3BB Wifi" /></li>
                  </ul>
             </div><!--serviceBox-->
-            <div class="serviceBox">
+            <!--<div class="serviceBox">
                 <h3>บริการฝาก / โอน</h3>
                 <p>บริการโอนเงินสดให้ผู้อื่น ผ่านช่องทาง mPAY เพียงแค่คุณถือเงินสด ไปแจ้งโอนเงินที่จุดบริการ siamtopup เพียงเท่านี้ปลายทางก็สามารถรับเงินได้ทันทีที่ ธ.กรุงไทย หรือ ตู้ ATM ธ.กรุงไทย, เทเลวิซ, และ AIS ช็อป ทุกสาขา โดยทั้งคุณซึ่งเป็นผู้โอน และผู้รับเงินก็ไม่ต้องมีบัญชีธนาคารหรือบัตรเอทีเอ็ม</p>
                 <p>บริการเติมเงิน mPAY WALLET ของบริการ mPAY ระบบจะทําการเติมเงินเข้ากระเป๋าของลูกค้า ยอดเงิน 300 ถึง 10000 บาท โดยต้องเป็นหลักร้อยเท่านั้น เช่น 500, 2000, 9900 บาท เป็นต้น</p>
@@ -69,7 +69,7 @@
                     <li><img src="images/mpay.jpg" alt="MPay" /></li>
                     <li><img src="images/mpaywallet.jpg" alt="MPay Wallet" /></li>
                 </ul>
-            </div><!--serviceBox-->
+            </div>serviceBox-->
         </div>
     </div>
     <!--rightCol-->
